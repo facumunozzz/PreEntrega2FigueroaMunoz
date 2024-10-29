@@ -12,8 +12,16 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import {Home} from "../Home/Home"
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
-const pages = ['Productos', 'Ofertas', 'Ayuda'];
+const pages = [
+  <Link to="/">Todas</Link>, 
+  <Link to="/category/Urbanas">Urbanas</Link>,
+  <Link to="/category/Deportivas">Deportivas</Link>,
+  <Link to="/category/Casual">Casual</Link>
+];
+
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -53,7 +61,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            Urban Clothes
+            Urban Shoes
           </Typography>
 
           <Box sx={{ ml: 2 }}>
@@ -114,7 +122,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            Urban Clothes
+            Urban Shoes
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
