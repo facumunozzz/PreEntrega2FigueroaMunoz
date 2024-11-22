@@ -1,24 +1,24 @@
 export const products = [
+    // {
+    //     id: "1",
+    //     title: "Nike Air Max",
+    //     price: 200,
+    //     stock: 5,
+    //     imageUrl: "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-nike-air-max-system-mujer-negra-510010dm9538001-1.jpg",
+    //     description: "Las mejores zapatillas urbanas",
+    //     category: "Urbanas"
+    // },
+    // {
+    //     id: "2",
+    //     title: "Adidas Ultraboost",
+    //     price: 180,
+    //     stock: 8,
+    //     imageUrl: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0ca2dd8bdb84a2ab11faacb8802c4dc_9366/Zapatillas_Ultraboost_1.0_Blanco_HQ4202_HM1.jpg",
+    //     description: "Zapatillas cómodas y ligeras",
+    //     category: "Deportivas"
+    // },
     {
-        id: "1",
-        title: "Nike Air Max",
-        price: 200,
-        stock: 5,
-        imageUrl: "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-nike-air-max-system-mujer-negra-510010dm9538001-1.jpg",
-        description: "Las mejores zapatillas urbanas",
-        category: "Urbanas"
-    },
-    {
-        id: "2",
-        title: "Adidas Ultraboost",
-        price: 180,
-        stock: 8,
-        imageUrl: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0ca2dd8bdb84a2ab11faacb8802c4dc_9366/Zapatillas_Ultraboost_1.0_Blanco_HQ4202_HM1.jpg",
-        description: "Zapatillas cómodas y ligeras",
-        category: "Deportivas"
-    },
-    {
-        id: "3",
+        // id: "3",
         title: "Puma RS-X",
         price: 150,
         stock: 10,
@@ -27,7 +27,7 @@ export const products = [
         category: "Casual"
     },
     {
-        id: "4",
+        // id: "4",
         title: "Reebok Classic",
         price: 120,
         stock: 7,
@@ -36,7 +36,7 @@ export const products = [
         category: "Casual"
     },
     {
-        id: "5",
+        // id: "5",
         title: "Converse Chuck Taylor",
         price: 100,
         stock: 6,
@@ -45,7 +45,7 @@ export const products = [
         category: "Urbanas"
     },
     {
-        id: "6",
+        // id: "6",
         title: "New Balance 574",
         price: 130,
         stock: 9,
@@ -54,7 +54,7 @@ export const products = [
         category: "Deportivas"
     },
     {
-        id: "7",
+        // id: "7",
         title: "Vans Old Skool",
         price: 85,
         stock: 12,
@@ -63,7 +63,7 @@ export const products = [
         category: "Casual"
     },
     {
-        id: "8",
+        // id: "8",
         title: "Jordan 1 Mid",
         price: 150,
         stock: 4,
@@ -72,7 +72,7 @@ export const products = [
         category: "Deportivas"
     },
     {
-        id: "9",
+        // id: "9",
         title: "Asics Gel-Lyte III",
         price: 140,
         stock: 6,
@@ -81,7 +81,7 @@ export const products = [
         category: "Deportivas"
     },
     {
-        id: "10",
+        // id: "10",
         title: "Fila Disruptor",
         price: 110,
         stock: 3,

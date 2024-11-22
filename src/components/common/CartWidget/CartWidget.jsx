@@ -1,15 +1,18 @@
 import ShoppingCartTwoToneIcon from '@mui/icons-material/ShoppingCartTwoTone';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { CartContext } from '../../../context/CartContext';
 
 const CartWidget = () => {
+  const {cart} = useContext(CartContext);
+
+  
+
   return (
-    <div>
       <Link to="/cart">
         <ShoppingCartTwoToneIcon/>
-        <span>0</span>
+        <span>{cart.length}</span>
       </Link>
-      
-    </div>
   )
 }
 
